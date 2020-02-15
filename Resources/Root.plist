@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSTableCell</string>
+			<key>cellClass</key>
+			<string>WPLPreviewCell</string>
+			<key>height</key>
+			<integer>287</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>xyz.skitty.wplprefs</string>
+			<key>key</key>
+			<string>parallax</string>
+			<key>label</key>
+			<string>Perspective Zoom</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Choose Light Wallpaper</string>
+			<key>action</key>
+			<string>chooseLightImage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Choose Dark Wallpaper</string>
+			<key>action</key>
+			<string>chooseDarkImage</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WallpaperLoader</string>
+</dict>
+</plist>
